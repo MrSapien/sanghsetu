@@ -1,3 +1,6 @@
 spring:
   application:
     name: sanghsetu
+sanghsetu:
+  greeting:
+    message: "Namaste from SanghSetu (from config)"

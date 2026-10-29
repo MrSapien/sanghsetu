@@ -9,6 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/hello")
     String hello() {
-        return "Namaste from SanghSetu";
+        return props.message();
+    }
+    private final GreetingProperties props;
+    public HelloController(GreetingProperties props) {
+        this.props = props;
     }
 }
