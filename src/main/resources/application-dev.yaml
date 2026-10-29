@@ -1,0 +1,3 @@
+sanghsetu:
+  greeting:
+    environment: "dev"
